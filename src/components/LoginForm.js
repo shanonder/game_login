@@ -29,7 +29,6 @@ class DebugLoginForm extends Component{
   }
 
 
-
   randonName = ()=> {
     this.setState({username:"test" + Math.floor(Math.random() * 10000)});
     return this.state.username;
